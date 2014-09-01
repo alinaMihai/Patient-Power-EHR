@@ -18,8 +18,9 @@ The Patient Power EHR comprises 4 parts:
 based on the level of access, and of general care plans. 
 
 The Server Application is hosted on an EJB complient Server like Glassfish, and uses two types of Enterprise beans: 
- - Stateless Session Beans: - use the Entity Manager to access and modify persistent data (CRUD); 
-                            - are exposed through web services and accessed by the EJB application Clients
+ - Stateless Session Beans: 
+     - use the Entity Manager to access and modify persistent data (CRUD); 
+     - are exposed through web services and accessed by the EJB application Clients
                             
  - Entity Beans: the persistent objects representing datastore records.
  
